@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: converter
-          image: diogo1530/converter:latest
+          image: sweasytech/converter
           envFrom:
             - configMapRef:
                 name: converter-configmap
